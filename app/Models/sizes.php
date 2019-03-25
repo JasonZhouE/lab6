@@ -6,7 +6,7 @@ use CodeIgniter\Models;
  * A vanilla model using all the goodness built-in to CI.
  * It will connect to the designated table in the default database.
  */
-class vehicle extends Model {
-    protected $table = 'vehicles'; // we need this
+class sizes extends Model {
+    protected $table = 'sizes'; // we need this
     protected $primaryKey = 'code'; // we only need this if not 'id'
 }
